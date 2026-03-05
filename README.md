@@ -102,6 +102,16 @@ The AI learns your movement habits and predicts your next move.
 - Transition probabilities (P(RIGHT | UP) = 65%)
 - Common escape routes
 - Playstyle classification (Aggressive/Stealth/Defensive)
+**Screenshots**
+  <img width="1303" height="878" alt="image" src="https://github.com/user-attachments/assets/c90c0ca1-cf88-4493-a985-e75b1307480f" />
+  <img width="857" height="923" alt="image" src="https://github.com/user-attachments/assets/9d059b2d-22d5-400d-aeb8-a6345df39f1c" />
+  <img width="837" height="665" alt="image" src="https://github.com/user-attachments/assets/3f9bf4d9-7d2a-431f-af6f-313719af1091" />
+  <img width="842" height="585" alt="image" src="https://github.com/user-attachments/assets/8cc4b650-7037-42b9-8f24-2c625adf265b" />
+
+
+
+
+  
 
 **Example:**
 ```
@@ -1262,61 +1272,6 @@ Built as a portfolio project demonstrating:
 - **A* Algorithm** - Classic pathfinding solution
 - **Game AI Community** - Inspiration and resources
 
-## 📞 Support
-
-### Getting Help
-
-- 📖 Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- 📖 Read [QUICKSTART.md](QUICKSTART.md)
-- 🐛 Open an issue on GitHub
-- 📧 Contact via email (if applicable)
-
-### Useful Links
-
-- **Game**: http://localhost:3000
-- **API**: http://localhost:8000
-- **API Docs**: http://localhost:8000/docs
-- **GitHub**: <repository-url>
-
----
-
-## 🎮 Quick Reference
-
-### Start Game
-```bash
-# Windows
-start.bat
-
-# Linux/Mac
-./start.sh
-```
-
-### URLs
-- **Game**: http://localhost:3000
-- **Backend**: http://localhost:8000
-- **API Docs**: http://localhost:8000/docs
-
-### Controls
-- **⬆️ ⬇️ ⬅️ ➡️**: Move player
-
-### Visual Indicators
-- **🟢**: Player
-- **🔴**: Police
-- **⬛**: Obstacles
-- **🔥**: Chase Mode (3× speed)
-- **⚡**: Pursuit Mode (2× speed)
-
-### Difficulty Levels
-1. **Random** - Easy
-2. **Direct Chase** - Medium
-3. **Velocity Interception** - Hard
-4. **Advanced Interception** - Very Hard
-
----
-
-<div align="center">
-
-**⭐ Star this project if you found it interesting! ⭐**
 
 **Built with ❤️ using React, Python, and AI**
 
