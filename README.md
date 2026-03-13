@@ -6,11 +6,11 @@
 [![FastAPI](https://img.shields.io/badge/fastapi-0.100+-009688)]()
 [![License](https://img.shields.io/badge/license-MIT-green)]()
 
-## 🌟 Project Overview
+##  Project Overview
 
 An advanced AI-powered hide-and-seek game featuring an intelligent police agent that uses **A* pathfinding**, **velocity-based interception**, **pattern learning**, and **proximity-based speed boost** to hunt down the player. The AI adapts to player behavior in real-time, creating an increasingly challenging and dynamic gameplay experience.
 
-### 🎯 What Makes This Special
+###  What Makes This Special
 
 This isn't just a simple chase game. The police AI features:
 
@@ -37,7 +37,7 @@ Survive as long as possible without getting caught by the increasingly intellige
 - **Game Over**: All points lost
 - **Dynamic Difficulty**: AI becomes smarter and faster as it gets closer
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. A* Pathfinding System
 The police AI uses the A* algorithm to find the shortest path to the player while avoiding obstacles.
@@ -55,7 +55,7 @@ Player at (9, 9), Police at (1, 1), Obstacles in between
 → Moves intelligently toward player
 ```
 
-📖 **See**: [PATHFINDING.md](PATHFINDING.md) for technical details
+ **See**: [PATHFINDING.md](PATHFINDING.md) for technical details
 
 ### 2. Velocity-Based Interception
 Instead of just chasing your current position, the AI predicts where you'll be.
@@ -75,7 +75,7 @@ You're moving RIGHT consistently
 → You can't escape by just running straight!
 ```
 
-📖 **See**: [INTERCEPTION_STRATEGIES.md](INTERCEPTION_STRATEGIES.md)
+ **See**: [INTERCEPTION_STRATEGIES.md](INTERCEPTION_STRATEGIES.md)
 
 ### 3. Proximity-Based Speed Boost ⭐ NEW!
 The police speed dynamically adjusts based on distance to create intense chase sequences.
@@ -92,7 +92,7 @@ The police speed dynamically adjusts based on distance to create intense chase s
 - ❌ **Before**: Player could escape forever by staying just ahead
 - ✅ **After**: Police accelerates when close, making escape much harder
 
-📖 **See**: [SPEED_BOOST_SYSTEM.md](SPEED_BOOST_SYSTEM.md)
+ **See**: [SPEED_BOOST_SYSTEM.md](SPEED_BOOST_SYSTEM.md)
 
 ### 4. Pattern Learning System
 The AI learns your movement habits and predicts your next move.
@@ -150,7 +150,7 @@ Choose your challenge level or watch the AI evolve:
 - **Adaptive tactics**: Changes strategy based on distance and behavior
 - **Speed boost active**: Maximum aggression mode
 
-## 🧠 AI Intelligence Breakdown
+##  AI Intelligence Breakdown
 
 ### A* Pathfinding Algorithm
 
@@ -298,7 +298,7 @@ for (let i = 0; i < speed; i++) {
 | Tension level | ⭐ Low | ⭐⭐⭐⭐⭐ High |
 | Difficulty | ⭐⭐ Easy | ⭐⭐⭐⭐ Hard |
 
-## 💻 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **React 18.0+** - UI framework
@@ -325,7 +325,7 @@ for (let i = 0; i < speed; i++) {
 - **pip** - Python package management
 - **Git** - Version control
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -389,7 +389,7 @@ for (let i = 0; i < speed; i++) {
 9. Repeat
 ```
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
 ### Prerequisites
 
@@ -558,7 +558,7 @@ Distance: 2.8 | Speed: 3x
 - Don't establish patterns
 - React to police position, not just distance
 
-## 📡 API Documentation
+##  API Documentation
 
 ### Base URL
 ```
@@ -773,7 +773,7 @@ POST /reset_learning
 }
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-hide-seek-game/
@@ -877,7 +877,7 @@ ai-hide-seek-game/
 - Error handling
 - Request/response formatting
 
-## 🧪 Testing
+##  Testing
 
 ### Backend Tests
 
@@ -915,7 +915,7 @@ curl -X POST http://localhost:8000/record_move \
 curl http://localhost:8000/patterns
 ```
 
-## 📊 Performance Metrics
+##  Performance Metrics
 
 ### Backend Performance
 
@@ -944,35 +944,35 @@ curl http://localhost:8000/patterns
 | Level 3 | ~35% | ~65% |
 | Level 4 | ~55% | ~75% |
 
-## 🎯 Development Journey
+##  Development Journey
 
 This project was built through 6 major development phases:
 
-### Phase 1: Initial Setup ✅
+### Phase 1: Initial Setup 
 - Full-stack project scaffolding
 - Basic game mechanics
 - Player movement and collision
 - Simple random AI
 
-### Phase 2: Pattern Learning ✅
+### Phase 2: Pattern Learning 
 - N-gram analysis implementation
 - Move prediction algorithm
 - Data persistence
 - Bug fixes in pattern recognition
 
-### Phase 3: Difficulty Levels ✅
+### Phase 3: Difficulty Levels 
 - 4-tier difficulty system
 - Direct chase implementation
 - Difficulty selector UI
 - Backend difficulty management
 
-### Phase 4: A* Pathfinding ✅
+### Phase 4: A* Pathfinding 
 - A* algorithm implementation
 - Obstacle navigation
 - Path optimization
 - Performance tuning (<1ms)
 
-### Phase 5: Interception Strategies ✅
+### Phase 5: Interception Strategies 
 - Velocity tracking system
 - Future position prediction
 - Interception point calculation
@@ -980,7 +980,7 @@ This project was built through 6 major development phases:
 - Corner trapping
 - Distance-based tactics
 
-### Phase 6: Speed Boost System ✅
+### Phase 6: Speed Boost System 
 - Proximity detection
 - Dynamic speed adjustment
 - 3-tier speed system
@@ -995,7 +995,7 @@ This project was built through 6 major development phases:
 - 40+ files created
 - 6 major features implemented
 
-## 🚀 Deployment
+## Deployment
 
 ### Frontend Deployment (Vercel)
 
@@ -1026,9 +1026,9 @@ This project was built through 6 major development phases:
 
 4. Configure CORS in `main.py` to allow frontend domain
 
-📖 **See**: [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions
+ **See**: [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions
 
-## 🔧 Configuration
+##  Configuration
 
 ### Adjust AI Difficulty
 
@@ -1068,7 +1068,7 @@ this.MOVE_SPEED = 200;         // Animation speed (ms)
 this.MOVE_COOLDOWN = 300;      // Input cooldown (ms)
 ```
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Backend Issues
 
@@ -1111,9 +1111,9 @@ lsof -ti:3000 | xargs kill -9
 - Check console for Phaser errors
 - Ensure all dependencies installed
 
-📖 **See**: [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for more solutions
+ **See**: [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for more solutions
 
-## 📚 Documentation
+##  Documentation
 
 ### Available Documentation
 
@@ -1130,7 +1130,7 @@ lsof -ti:3000 | xargs kill -9
 | [TROUBLESHOOTING.md](TROUBLESHOOTING.md) | Common issues and solutions |
 | [FEATURES.md](FEATURES.md) | Complete feature list |
 
-## 🎓 Learning Resources
+##  Learning Resources
 
 ### Algorithms Used
 
@@ -1160,7 +1160,7 @@ lsof -ti:3000 | xargs kill -9
 - [Official Documentation](https://react.dev/)
 - [React Tutorial](https://react.dev/learn)
 
-## 🤝 Contributing
+##  Contributing
 
 This is a portfolio/educational project, but contributions are welcome!
 
@@ -1174,16 +1174,16 @@ This is a portfolio/educational project, but contributions are welcome!
 
 ### Contribution Ideas
 
-- 🎨 Improve UI/UX design
-- 🎵 Add sound effects and music
-- 🗺️ Create new map layouts
-- 🤖 Implement reinforcement learning
-- 👥 Add multiplayer mode
-- 📱 Make mobile-responsive
-- 🏆 Add leaderboard system
-- 🎮 Add power-ups and special abilities
+-  Improve UI/UX design
+-  Add sound effects and music
+-  Create new map layouts
+-  Implement reinforcement learning
+- Add multiplayer mode
+-  Make mobile-responsive
+-  Add leaderboard system
+-  Add power-ups and special abilities
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 ### Planned Features
 
@@ -1206,7 +1206,7 @@ This is a portfolio/educational project, but contributions are welcome!
 - [ ] **Personality Modes**: Aggressive, Defensive, Balanced AI styles
 - [ ] **Neural Network Prediction**: Deep learning for move prediction
 
-## 🏆 Project Highlights
+##  Project Highlights
 
 ### Technical Achievements
 
@@ -1231,7 +1231,7 @@ This is a portfolio/educational project, but contributions are welcome!
 - **Problem Solving**: Complex algorithm implementation
 - **System Design**: Architecture planning and implementation
 
-## 📄 License
+##  License
 
 MIT License
 
@@ -1255,16 +1255,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## 👨‍💻 Author
 
-Built as a portfolio project demonstrating:
-- Full-stack web development
-- Game development with Phaser.js
-- AI and machine learning integration
-- Advanced algorithm implementation
-- System architecture and design
-
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Phaser.js** - Excellent 2D game engine
 - **FastAPI** - Modern, fast Python web framework
@@ -1273,7 +1265,6 @@ Built as a portfolio project demonstrating:
 - **Game AI Community** - Inspiration and resources
 
 
-**Built with ❤️ using React, Python, and AI**
 
 **🎮 Happy Gaming! 🎮**
 
