@@ -55,7 +55,6 @@ Player at (9, 9), Police at (1, 1), Obstacles in between
 → Moves intelligently toward player
 ```
 
- **See**: [PATHFINDING.md](PATHFINDING.md) for technical details
 
 ### 2. Velocity-Based Interception
 Instead of just chasing your current position, the AI predicts where you'll be.
@@ -103,10 +102,15 @@ The AI learns your movement habits and predicts your next move.
 - Common escape routes
 - Playstyle classification (Aggressive/Stealth/Defensive)
 **Screenshots**
+  
   <img width="1303" height="878" alt="image" src="https://github.com/user-attachments/assets/c90c0ca1-cf88-4493-a985-e75b1307480f" />
   <img width="857" height="923" alt="image" src="https://github.com/user-attachments/assets/9d059b2d-22d5-400d-aeb8-a6345df39f1c" />
   <img width="837" height="665" alt="image" src="https://github.com/user-attachments/assets/3f9bf4d9-7d2a-431f-af6f-313719af1091" />
   <img width="842" height="585" alt="image" src="https://github.com/user-attachments/assets/8cc4b650-7037-42b9-8f24-2c625adf265b" />
+
+
+
+https://github.com/user-attachments/assets/d5cbcc9a-6c9e-44ff-9a2e-d2a608b6d909
 
 
 
